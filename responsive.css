@@ -35,6 +35,14 @@
     .header-list {
       display: none;
     }
+    
+    .contents-item p {
+      font-size: 15px;
+    }
+    
+    .txt-contents {
+      font-size: 14px;
+    }
 
 }
   
@@ -60,7 +68,7 @@
     }
 
     .section-title {
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
     }
 
@@ -99,6 +107,18 @@
     
     .footer-list {
       display: none;
+    }
+    
+    .contents-item p {
+      font-size: 15px;
+    }
+    
+    .txt-contents {
+      font-size: 14px;
+    }
+    
+    .contact-form p {
+      font-size: 13px;
     }
 }
 
