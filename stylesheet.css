@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Avenir Next";
 }
@@ -31,16 +35,26 @@ li {
   display: block;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 30px 40px;
+  display: none;
+}
+
 .main {
   padding: 100px 80px;
 }
 
 .copy-container h1 {
   font-size: 80px;
+  text-align: center;
 }
 
 .copy-container h2 {
   font-size: 40px;
+  text-align: center;
 }
 
 .copy-container span {
@@ -48,10 +62,14 @@ li {
 }
 
 .contents {
-  height: 2600px;
+  height: 500px;
   margin-top: 20px;
   margin-bottom: 100px;
-  
+}
+
+.content {
+  float: left;
+  width: 25%;
 }
 
 .section-title {
@@ -62,24 +80,28 @@ li {
 }
 
 .contents-item {
-  margin-right: 500px;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .contents-item p {
   font-size: 25px;
   margin-top: 10px;
   font-weight: bold;
+  text-align: center;
 }
 
 .txt-contents {
-  width:50%;
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 1px;
+  margin-left: 30px;
+  width: 80%;
+  display: inline-block;
 }
 
 .contact-form {
-  padding-top: 400px;
+  padding-top: 300px;
 }
 
 input, textarea {
@@ -100,7 +122,7 @@ input, textarea {
 .footer {
   background-color: #808080;
   color: #fff;
-  height: 120px;
+  height: 190px;
   padding: 40px;
 }
 
@@ -118,9 +140,6 @@ input, textarea {
 .footer-list li {
   padding: 10px 10px;
   color: white;
-}
-
-.btn {
 }
 
 .btn:hover {
