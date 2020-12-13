@@ -9,6 +9,10 @@
         font-size: 30px;
         text-align: center;
     }
+    
+    .main {
+      padding: 100px 40px;
+    }
 
     .section-title {
         font-size: 20px;
@@ -23,18 +27,35 @@
         text-align: center;
     }
 
+    .menu-icon {
+        display: block;
+    }
+    
+    .header-list {
+      display: none;
+    }
+
 }
   
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     .copy-container h1 {
-        font-size: 35px;
+        font-size: 20px;
         text-align: center;
     }
 
     .copy-container h2 {
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
+    }
+    
+    .main {
+      padding: 100px 25px;
+    }
+    
+    .header-logo {
+      font-size: 20px;
+      padding-top: 30px;
     }
 
     .section-title {
@@ -45,9 +66,14 @@
     .content {
         width: 100%;
     }
-
+    
+    .contents-item img {
+      padding-right: 10px;
+    }
+    
     .txt-contents {
-        text-align: center;
+      text-align: center;
+      padding-left: 50px;
     }
 
     input, textarea {
@@ -62,4 +88,21 @@
         display: block;
         cursor: pointer;
     }
+
+    .contents-item p {
+        text-align: center;
+    }
+    
+    .footer {
+      height: 100px;
+    }
+    
+    .footer-logo {
+      font-size: 20px;
+    }
+    
+    .footer-list {
+      display: none;
+    }
 }
+
