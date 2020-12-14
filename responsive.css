@@ -1,124 +1,123 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .copy-container h1 {
-        font-size: 40px;
-        text-align: center;
-    }
+  .copy-container h1 {
+    font-size: 40px;
+    text-align: center;
+  }
 
-    .copy-container h2 {
-        font-size: 30px;
-        text-align: center;
-    }
+  .copy-container h2 {
+    font-size: 30px;
+    text-align: center;
+  }
     
-    .main {
-      padding: 100px 40px;
-    }
+  .main {
+    padding: 100px 40px;
+  }
 
-    .section-title {
-        font-size: 20px;
-        text-align: center;
-    }
+  .section-title {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .content {
-        width: 50%;
-    }
+  .content {
+    width: 50%;
+  }
 
-    .contact-form {
-        text-align: center;
-    }
-
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
+  .contact-form {
+    text-align: center;
+  }
     
-    .header-list {
-      display: none;
-    }
+  .header-list a {
+    font-size: 10px;
+    padding-top: 35px;
+  }
+
+  .header-logo {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .main-icon {
+    display: none;
+  }
     
-    .contents-item p {
-      font-size: 15px;
-    }
+  .contents-item p {
+    font-size: 15px;
+  }
     
-    .txt-contents {
-      font-size: 14px;
-    }
+  .txt-contents {
+    font-size: 14px;
+  }
 
 }
   
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-    .copy-container h1 {
-        font-size: 20px;
-        text-align: center;
-    }
+  .copy-container h1 {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .copy-container h2 {
-        font-size: 15px;
-        text-align: center;
-    }
+  .copy-container h2 {
+    font-size: 15px;
+    text-align: center;
+  }
     
-    .main {
-      padding: 100px 25px;
-    }
+  .main {
+    padding: 100px 25px;
+  }
     
-    .header-logo {
-      font-size: 20px;
-      padding-top: 30px;
-    }
+  .header-logo {
+    font-size: 20px;
+    padding-top: 30px;
+  }
 
-    .section-title {
-        font-size: 15px;
-        text-align: center;
-    }
+  .section-title {
+    font-size: 15px;
+    text-align: center;
+  }
 
-    .content {
-        width: 100%;
-    }
+  .content {
+    width: 100%;
+  }
     
-    .contents-item img {
-      padding-right: 10px;
-    }
-    
-    
+  .contents-item img {
+    padding-right: 10px;
+  }
+  input, textarea {
+    width: 100%;
+  }
 
-    input, textarea {
-        width: 100%;
-    }
-
-    .header-list {
-        display: none;
-    }
+  .header-list {
+    display: none;
+  }
     
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-    }
-
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  
+  .footer {
+    height: 100px;
+  }
     
+  .footer-logo {
+    font-size: 20px;
+  }
     
-    .footer {
-      height: 100px;
-    }
+  .footer-list {
+    display: none;
+  }
     
-    .footer-logo {
-      font-size: 20px;
-    }
+  .contents-item p {
+    font-size: 15px;
+  }
     
-    .footer-list {
-      display: none;
-    }
+  .txt-contents {
+    font-size: 14px;
+  }
     
-    .contents-item p {
-      font-size: 15px;
-    }
-    
-    .txt-contents {
-      font-size: 14px;
-    }
-    
-    .contact-form p {
-      font-size: 13px;
-    }
+  .contact-form p {
+    font-size: 13px;
+  }
 }
-
